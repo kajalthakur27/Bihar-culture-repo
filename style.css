@@ -1,0 +1,331 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ebe3c4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+  }
+  
+ 
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('/photos store/Flok art.png');
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 10px;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    text-align: center;
+  }
+  
+  
+  .container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  section h2 {
+    margin-top: 1.5rem;
+    color: #222;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  
+  .video-container {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 10px;
+  }
+  iframe {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  iframe:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  .learn-more-btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #cc5200;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+    
+ 
+  .footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #222;
+    color: #fff;
+  }
+  .footer a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  .intro-section {
+    background-color: #aee7e0;
+    padding: 20px;
+    border-left: 5px solid #f19e0e;
+    margin-bottom: 30px;
+    border-radius: 8px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .center-iframe {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section {
+    background-color: paleturquoise;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.07);
+    transition: 0.3s ease;
+  }
+
+  .section:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+
+  .section h2 {
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+    color: #0066cc;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+  }
+
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border-color: #0066cc;
+    outline: none;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  button {
+    margin-top: 20px;
+    background: linear-gradient(to right, #0066cc, #004d99);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  button:hover {
+    background: linear-gradient(to right, #004d99, #002244);
+    transform: scale(1.05);
+  }
+
+  .testimonial {
+    background-color: #f1f9ff;
+    border-left: 5px solid #0066cc;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.question {
+    font-size: 1.5em;
+}
+.answers {
+    margin-top: 20px;
+}
+.answer {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.answer:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+.Start-Quiz-btn {
+  background-color: #4479be;
+  border: none;
+  color: rgb(245, 238, 245);
+  padding: 4px 8px; /* small size */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  justify-content: center;
+}
+
+.Start-Quiz-btn:hover {
+  background-color: #4e23ec;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+nav {
+  background: #5d9de6;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc80;
+}
+
+/* Responsive rules */
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  nav.show {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+footer {
+  background: #30268d;
+  color: white;
+  padding: 30px 20px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.footer-links a {
+  color: #ffcc80;
+  margin-right: 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer-links a:hover {
+  color: white;
+}
